@@ -1,0 +1,102 @@
+.homeWrap {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeContent {
+    height: 90%;
+    width: 90%;
+    background-color: grey;
+    box-shadow: rgba(141, 141, 141, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+
+}
+
+.heading {
+    height: 15%;
+    width: 100%;
+    border-bottom: rgb(0, 0, 0) solid 2px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+.content {
+    height: 85%;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;    
+}
+
+.mainImg {
+    height: auto;
+}
+
+.box {
+    background-color: #ffffff;
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+    height: 200px;
+    max-height: 35vh;
+    -webkit-box-shadow: 0px 12 x 18px -6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+}
+
+.box :hover{
+    cursor: pointer;
+}
+
+.mainImg{
+    height: 50%;
+}
+
+.btm{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.learnMore{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+}
+
+.btn :hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease;
+}
+
+.date{
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.grid{
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.grid > div{
+    flex-basis: calc(33.33%-40px);
+}
